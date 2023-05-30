@@ -174,9 +174,9 @@ export default function Home() {
 				</p>
 				<Selos />
 				<Team />
-				<Modal isOpen={open} toggle={setOpen} />
-				<Modal2 isOpen={open2} toggle={setOpen2} />
-				<Modal3 isOpen={open3} toggle={setOpen3} />
+				<Modal isOpen={open} />
+				<Modal2 isOpen={open2} />
+				<Modal3 isOpen={open3} />
 			</div>
 			<ExecutedProjects />
 		</div>

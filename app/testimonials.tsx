@@ -1,4 +1,12 @@
-export default function Testimonial({ title, text, img, name, company }) {
+interface TestimonialProps {
+	title: string
+	text: string
+	img: string
+	name: string
+	company: string
+}
+
+export default function Testimonial({ title, text, img, name, company }: TestimonialProps) {
 	return (
 		<section className="relative isolate overflow-hidden bg-white ">
 			<div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />

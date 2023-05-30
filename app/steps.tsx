@@ -1,7 +1,12 @@
 import { Disclosure } from "@headlessui/react"
 import { ChevronUpIcon } from "@heroicons/react/20/solid"
 
-export default function Steps({ step, description }) {
+interface StepsProps {
+	step: string
+	description: string
+}
+
+export default function Steps({ step, description }: StepsProps) {
 	return (
 		<div className="w-full px-4 pt-8">
 			<div className="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
