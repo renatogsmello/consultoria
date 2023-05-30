@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Disclosure } from "@headlessui/react"
 import { ChevronUpIcon } from "@heroicons/react/20/solid"
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from "@heroicons/react/24/outline"
@@ -37,6 +37,7 @@ export default function Home() {
 	const [open, setOpen] = useState(false)
 	const [open2, setOpen2] = useState(false)
 	const [open3, setOpen3] = useState(false)
+
 	return (
 		<div className="relative isolate px-6 pt-14 lg:px-8">
 			<div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
@@ -148,7 +149,12 @@ export default function Home() {
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
 												Acompanhamento dos líderes de acolhimento da empresa - Planos de benefícios e compensação para funcionários e
 												equipes que se destacarem nas dinâmicas inclusivas -{" "}
-												<button className="font-bold text-indigo-600 decoration-indigo-600 underline" onClick={(e) => setOpen(true)}>
+												<button
+													className="font-bold text-indigo-600 decoration-indigo-600 underline"
+													onClick={(e) => {
+														console.log(open), setOpen(true)
+													}}
+												>
 													Avaliação 360
 												</button>
 												periódica dos líderes
@@ -174,9 +180,10 @@ export default function Home() {
 				</p>
 				<Selos />
 				<Team />
-				<Modal isOpen={open} />
-				<Modal2 isOpen={open2} />
-				<Modal3 isOpen={open3} />
+
+				<Modal isOpen={open} toggle={setOpen} />
+				<Modal2 isOpen={open2} toggle={setOpen2} />
+				<Modal3 isOpen={open3} toggle={setOpen3} />
 			</div>
 			<ExecutedProjects />
 		</div>
