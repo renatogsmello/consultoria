@@ -73,16 +73,9 @@ export default function Home() {
 
 				<div className="mx-auto mt-16 max-w-7xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
 					<p className="mt-8 font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Conheça as etapas da nossa metodologia</p>
-					<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-4">
-						{/* <Steps
-							step={"Passo 1"}
-							description={
-								"Entrevista com lideres e coleta de feedback - Adaptação da cultura da empresa sob a ótica inclusiva - Mapeamento de ONGs e Instituições especializadas em PCDs para treinamento in company - Melhoria do ambiente de trabalho Presencial / Online / Híbrido - Levantamento de requisitos para modulação do app de inclusão 360"
-							}
-						/> */}
-
+					<div className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-4">
 						<div className="w-full px-4 pt-8">
-							<div className="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
+							<div className="mx-auto w-full max-w-md rounded-2xl bg-white">
 								<Disclosure>
 									{({ open }) => (
 										<>
@@ -91,26 +84,32 @@ export default function Home() {
 												<ChevronUpIcon className={`${open ? "rotate-180 transform" : ""} h-5 w-5 text-purple-500`} />
 											</Disclosure.Button>
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-												Entrevista com lideres e coleta de feedback - Adaptação da cultura da empresa sob a ótica inclusiva - Mapeamento
-												de ONGs e Instituições especializadas em PCDs para treinamento in company - Melhoria do ambiente de trabalho
-												Presencial / Online / Híbrido - Levantamento de requisitos para modulação do app de
-												<button className="font-bold text-indigo-600 decoration-indigo-600 underline" onClick={(e) => setOpen2(true)}>
-													inclusão 360
-												</button>
+												<ul className="list-disc">
+													<li className="mb-2">Entrevista com lideres e coleta de feedback</li>
+													<li className="mb-2">Adaptação da cultura da empresa sob a ótica inclusiva</li>
+													<li className="mb-2">
+														Mapeamento de ONGs e Instituições especializadas em PCDs para treinamento in company
+													</li>
+													<li className="mb-2">Melhoria do ambiente de trabalho</li>
+													<li className="mb-2">
+														Presencial / Online / Híbrido - Levantamento de requisitos para modulação do app de
+														<button
+															className="font-bold text-indigo-600 decoration-indigo-600 underline ml-2"
+															onClick={(e) => setOpen2(true)}
+														>
+															inclusão 360
+														</button>
+													</li>
+												</ul>
 											</Disclosure.Panel>
 										</>
 									)}
 								</Disclosure>
 							</div>
 						</div>
-						{/* <Steps
-							step={"Passo 2"}
-							description={
-								"Realização do processo de onboarding acolhedor pelo funcionários PCDs treinados -  Apresentação dos lideres capacitados através do onboarding continuo e da metodologia buddy - Gameficação do processo de integração das equipes através de dinâmicas"
-							}
-						/> */}
+
 						<div className="w-full px-4 pt-8">
-							<div className="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
+							<div className="mx-auto w-full max-w-md rounded-2xl bg-white">
 								<Disclosure>
 									{({ open }) => (
 										<>
@@ -119,26 +118,30 @@ export default function Home() {
 												<ChevronUpIcon className={`${open ? "rotate-180 transform" : ""} h-5 w-5 text-purple-500`} />
 											</Disclosure.Button>
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-												Realização do processo de onboarding acolhedor pelo funcionários PCDs treinados - Apresentação dos lideres
-												capacitados através do onboarding continuo e da metodologia buddy -
-												<button className="font-bold text-indigo-600 decoration-indigo-600 underline" onClick={(e) => setOpen3(true)}>
-													Gameficação
-												</button>
-												do processo de integração das equipes através de dinâmicas
+												<ul className="list-disc">
+													<li className="mb-2">Realização do processo de onboarding acolhedor pelo funcionários PCDs treinados</li>
+													<li className="mb-2">
+														Apresentação dos lideres capacitados através do onboarding continuo e da metodologia buddy
+													</li>
+													<li className="mb-2">
+														<button
+															className="font-bold text-indigo-600 decoration-indigo-600 underline mr-2"
+															onClick={(e) => setOpen3(true)}
+														>
+															Gameficação
+														</button>
+														do processo de integração das equipes através de dinâmicas
+													</li>
+												</ul>
 											</Disclosure.Panel>
 										</>
 									)}
 								</Disclosure>
 							</div>
 						</div>
-						{/* <Steps
-							step={"Passo 3"}
-							description={
-								"Acompanhamento dos líderes de acolhimento da empresa - Planos de benefícios e compensação para funcionários e equipes que se destacarem nas dinâmicas inclusivas - Avaliação 360 periódica dos líderes"
-							}
-						/> */}
+
 						<div className="w-full px-4 pt-8">
-							<div className="mx-auto w-full max-w-md rounded-2xl bg-white p-2">
+							<div className="mx-auto w-full max-w-md rounded-2xl bg-white">
 								<Disclosure>
 									{({ open }) => (
 										<>
@@ -147,29 +150,52 @@ export default function Home() {
 												<ChevronUpIcon className={`${open ? "rotate-180 transform" : ""} h-5 w-5 text-purple-500`} />
 											</Disclosure.Button>
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-												Acompanhamento dos líderes de acolhimento da empresa - Planos de benefícios e compensação para funcionários e
-												equipes que se destacarem nas dinâmicas inclusivas -{" "}
-												<button
-													className="font-bold text-indigo-600 decoration-indigo-600 underline"
-													onClick={(e) => {
-														console.log(open), setOpen(true)
-													}}
-												>
-													Avaliação 360
-												</button>
-												periódica dos líderes
+												<ul className="list-disc">
+													<li className="mb-2">Acompanhamento dos líderes de acolhimento da empresa</li>
+													<li className="mb-2">
+														Planos de benefícios e compensação para funcionários e equipes que se destacarem nas dinâmicas
+														inclusivas
+													</li>
+													<li className="mb-2">
+														<button
+															className="font-bold text-indigo-600 decoration-indigo-600 underline mr-2"
+															onClick={() => setOpen(true)}
+														>
+															Avaliação 360
+														</button>
+														periódica dos líderes
+													</li>
+												</ul>
 											</Disclosure.Panel>
 										</>
 									)}
 								</Disclosure>
 							</div>
 						</div>
-						<Steps
-							step={"Passo 4"}
-							description={
-								"A qualidade e comprometimento das empresas que aplicaram a metodologia serão divulgados através de selos. Selo 1: Na Trilha Inclusiva Selo 2: Real Conexão Humana Selo 3: Jornada Inclusiva"
-							}
-						/>
+						<div className="w-full px-4 pt-8">
+							<div className="mx-auto w-full max-w-md rounded-2xl bg-white">
+								<Disclosure>
+									{({ open }) => (
+										<>
+											<Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+												<span>Passo 4</span>
+												<ChevronUpIcon className={`${open ? "rotate-180 transform" : ""} h-5 w-5 text-purple-500`} />
+											</Disclosure.Button>
+											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+												<ul className="list-disc">
+													<li className="mb-2">
+														A qualidade e comprometimento das empresas que aplicaram a metodologia serão divulgados através de selos
+													</li>
+													<li className="mb-2">Selo 1: Na Trilha Inclusiva</li>
+													<li className="mb-2">Selo 2: Real Conexão Humana</li>
+													<li className="mb-2">Selo 3: Jornada Inclusiva"</li>
+												</ul>
+											</Disclosure.Panel>
+										</>
+									)}
+								</Disclosure>
+							</div>
+						</div>
 					</div>
 				</div>
 				<p className="mt-16 font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Benefícios de possuir os selos de Inclusão 360</p>
