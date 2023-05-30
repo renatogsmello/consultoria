@@ -3,7 +3,7 @@ import Team from "./team"
 import Home from "./home"
 import Clients from "./clients"
 import Blog from "./blog"
-import Projects from "./projects"
+import Projects from "./depoimentos"
 import ExecutedProjects from "./executed-projects"
 
 export default function HomePage() {
@@ -14,7 +14,6 @@ export default function HomePage() {
 			</header>
 			<main className="flex min-h-screen flex-col items-center justify-between">
 				<Home />
-				<Team />
 				<Projects />
 				<Clients />
 				<Blog />

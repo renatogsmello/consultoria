@@ -45,7 +45,8 @@ export default function Team() {
 				<div className="max-w-2xl">
 					<h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Conheça nossos consultores</h2>
 					<p className="mt-6 text-lg leading-8 text-gray-600">
-						Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper suspendisse.
+						Nossa equipe de consultores altamente qualificados está pronta para auxiliá-lo a transformar seu ambiente de trabalho e colher os
+						benefícios de uma equipe diversa e talentosa
 					</p>
 				</div>
 				<ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
