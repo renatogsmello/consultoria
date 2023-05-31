@@ -1,10 +1,8 @@
 import Navbar from "./navbar"
-import Team from "./team"
 import Home from "./home"
 import Clients from "./clients"
 import Blog from "./blog"
 import Projects from "./depoimentos"
-import ExecutedProjects from "./executed-projects"
 
 export default function HomePage() {
 	return (

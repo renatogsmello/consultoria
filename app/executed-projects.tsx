@@ -1,9 +1,4 @@
-const links = [
-	{ name: "Conheça nossas ONGs parceiras", href: "#" },
-	// { name: "Internship program", href: "#" },
-	// { name: "Our values", href: "#" },
-	// { name: "Meet our leadership", href: "#" },
-]
+const links = [{ name: "Conheça nossas ONGs parceiras", href: "#" }]
 const stats = [
 	{ name: "Líderes Capacitados", value: "10.800" },
 	{ name: "Culturas Organizacionais Adaptadas", value: "1.000+" },

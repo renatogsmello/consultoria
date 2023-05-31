@@ -7,10 +7,10 @@ const posts = [
 			"Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
 		date: "Mar 16, 2020",
 		datetime: "2020-03-16",
-		category: { title: "Marketing", href: "#" },
+		category: { title: "Treinamento", href: "#" },
 		file: "/podcast.ogg",
 		author: {
-			name: "Michael Foster",
+			name: "Cristian Velasco",
 			role: "Co-Founder / CTO",
 			href: "#",
 			imageUrl:
@@ -19,14 +19,15 @@ const posts = [
 	},
 	{
 		id: 2,
-		title: "How to use search engine optimization to drive sales",
+		title: "PCD no mercado de trabalho",
 		href: "#",
-		description: "Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.",
+		description:
+			"Em 2019, um levantamento feito pela Catho, empresa especializada em mercado de trabalho, em parceria com a consultoria Santo Caos, aponta outros aspectos da presença de PCD no mercado de trabalho brasileiro. A pesquisa, feita com cerca de mil participantes e divulgada em 2019, indica que menos de 10% dos profissionais que têm algum tipo de deficiência ocupam postos de liderança no país.",
 		date: "Mar 10, 2020",
 		datetime: "2020-03-10",
-		category: { title: "Sales", href: "#" },
+		category: { title: "Mercado", href: "#" },
 		author: {
-			name: "Lindsay Walton",
+			name: "Daniela Rosa",
 			role: "Co-Founder / CEO",
 			href: "#",
 			imageUrl:
@@ -35,18 +36,19 @@ const posts = [
 	},
 	{
 		id: 3,
-		title: "How to use search engine optimization to drive sales",
+		title: "Ter uma deficiência não é o final, é apenas o início de uma luta desigual",
 		href: "#",
-		description: "Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.",
+		description:
+			"Com o objetivo de promover a contratação e criar um ambiente corporativo mais inclusivo e adaptado para pessoas com deficiência, a Consultoria 360  desenvolve  ações de conscientização sobre o tema, como o teste de Viés Inconsciente, divulgado interna e externamente, e palestras educativas.",
 		date: "Mar 10, 2020",
 		datetime: "2020-03-10",
-		category: { title: "Sales", href: "#" },
+		category: { title: "Avaliação", href: "#" },
 		author: {
-			name: "Lindsay Walton",
+			name: "Camila Oliveira",
 			role: "Co-Founder / CEO",
 			href: "#",
 			imageUrl:
-				"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 		},
 	},
 ]
