@@ -18,7 +18,7 @@ const products = [
 		name: "Selo 1",
 		href: "#",
 		price: "Líder Inclusivo",
-		imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+		imageSrc: "/lider_inclusivo.jpeg",
 		imageAlt: "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
 		description:
 			"Nivel inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 é notável as mudanças nos processos de inclusão e acolhimento dos funcionários PCDs.",
@@ -28,7 +28,7 @@ const products = [
 		name: "Selo 2",
 		href: "#",
 		price: "Líder Inovador",
-		imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+		imageSrc: "/lider_inovador.jpeg",
 		imageAlt: "Olive drab green insulated bottle with flared screw lid and flat top.",
 		description:
 			"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PCDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
@@ -38,7 +38,7 @@ const products = [
 		name: "Selo 3",
 		href: "#",
 		price: "Líder Defensor",
-		imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+		imageSrc: "/lider_defensor.jpeg",
 		imageAlt: "Person using a pen to cross a task off a productivity paper card.",
 		description:
 			"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PCDs.",
@@ -87,13 +87,13 @@ export function Tabs() {
 			title: "Líder Inclusivo",
 			description:
 				"Nivel inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 é notável as mudanças nos processos de inclusão e acolhimento dos funcionários PCDs.",
-			img: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+			img: "/lider_inclusivo.jpeg",
 		},
 		Selo2: {
 			id: 2,
 			name: "Selo 2",
 			title: "Líder Inovador",
-			img: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+			img: "/lider_inovador.jpeg",
 			description:
 				"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PCDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
 		},
@@ -101,7 +101,7 @@ export function Tabs() {
 			id: 3,
 			name: "Selo 3",
 			title: "Líder Defensor",
-			img: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+			img: "/lider_defensor.jpeg",
 			description:
 				"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PCDs.",
 		},
@@ -110,19 +110,19 @@ export function Tabs() {
 	return (
 		<div className="w-full max-w-3xl px-2 py-16 sm:px-0 mx-auto">
 			<Tab.Group>
-				<Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
+				<Tab.List className="flex space-x-1 rounded-xl p-1">
 					{Object.values(categories).map((category) => (
 						<Tab
 							key={category.id}
 							className={({ selected }) =>
 								classNames(
 									"w-full rounded-lg py-2.5",
-									"ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
-									selected ? "bg-white shadow" : "hover:bg-white/[0.12]"
+									"ring-white ring-opacity-60 ring-offset-2 ring-offset-indigo-400 focus:outline-none focus:ring-2",
+									selected ? "bg-indigo-900/10 shadow" : "hover:bg-gray-300/20"
 								)
 							}
 						>
-							<img className="w-60 max-w-xs" src={category.img} alt="" />
+							<img className="w-60 lg:max-w-xs mix-blend-multiply" src={category.img} alt="" />
 						</Tab>
 					))}
 				</Tab.List>
@@ -131,7 +131,7 @@ export function Tabs() {
 						<Tab.Panel
 							key={category.id}
 							className={classNames(
-								"rounded-xl bg-white p-3",
+								"rounded-xl shadow-lg p-6",
 								"ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
 							)}
 						>

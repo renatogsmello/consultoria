@@ -2,12 +2,13 @@
 
 import { Disclosure } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import Link from "next/link"
 
 const navigation = [
 	{ name: "Inicio", href: "#", current: true },
-	{ name: "Equipe", href: "#", current: false },
-	{ name: "Projetos", href: "#", current: false },
-	{ name: "Blog", href: "#", current: false },
+	{ name: "Equipe", href: "#team", current: false },
+	{ name: "Depoimentos", href: "#testimonials", current: false },
+	{ name: "Blog", href: "#blog", current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -49,7 +50,7 @@ export default function Navbar() {
 								<div className="hidden sm:block mx-auto">
 									<div className="flex space-x-4">
 										{navigation.map((item) => (
-											<a
+											<Link
 												key={item.name}
 												href={item.href}
 												className={classNames(
@@ -59,7 +60,7 @@ export default function Navbar() {
 												aria-current={item.current ? "page" : undefined}
 											>
 												{item.name}
-											</a>
+											</Link>
 										))}
 									</div>
 								</div>

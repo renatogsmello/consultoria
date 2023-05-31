@@ -186,7 +186,7 @@ export function Modal3({ isOpen, toggle }: IProps) {
 													deficiência não são eficientes
 												</p>
 												<p className="text-sm text-gray-500">
-													A Gameficação oferece acesso fácil a recursos úteis, como materiais de treinamento, diretrizes de
+													A gameficação oferece acesso fácil a recursos úteis, como materiais de treinamento, diretrizes de
 													acessibilidade, políticas internas e informações relevantes para garantir uma integração bem-sucedida.
 												</p>
 											</div>
