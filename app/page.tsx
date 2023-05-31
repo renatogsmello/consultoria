@@ -3,6 +3,7 @@ import Home from "./home"
 import Clients from "./clients"
 import Blog from "./blog"
 import Projects from "./depoimentos"
+import Contact from "./contact"
 
 export default function HomePage() {
 	return (
@@ -15,6 +16,7 @@ export default function HomePage() {
 				<Projects />
 				<Clients />
 				<Blog />
+				<Contact />
 			</main>
 		</>
 	)

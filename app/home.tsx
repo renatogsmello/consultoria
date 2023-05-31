@@ -176,9 +176,9 @@ export default function Home() {
 				</div>
 				<p className="mt-40 font-bold tracking-tight text-gray-900 text-2xl sm:text-4xl text-center">Benefícios de possuir os selos de Inclusão 360</p>
 				<p className="mt-6 text-lg leading-8 text-gray-600">
-					Promover um ambiente de trabalho diverso e acolhedor, os selos fortalecem a reputação e sucesso da empresa. A divulgação do selo 360
-					demonstra compromisso com a igualdade e a diversidade, despertando o interesse e a admiração de potenciais clientes, parceiros de negócios e
-					talentos qualificados.
+					Ao promover um ambiente de trabalho diverso e acolhedor, os selos fortalecem a reputação e sucesso da empresa. A divulgação dos selos
+					inclusão 360, a empresa demonstra compromisso com a igualdade e a diversidade, despertando o interesse e a admiração de potenciais clientes,
+					parceiros de negócios e talentos qualificados.
 				</p>
 				{/* <Selos /> */}
 				<Tabs />
