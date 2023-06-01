@@ -10,7 +10,7 @@ const posts = [
 		file: "/podcast.ogg",
 		author: {
 			name: "Cristian Velasco",
-			role: "Co-Founder / CTO",
+			role: "Co-Founder / CEO",
 			href: "#",
 			imageUrl: "/cristian_velasco.jpeg",
 		},
@@ -28,8 +28,7 @@ const posts = [
 			name: "Daniela Rosa",
 			role: "Co-Founder / CEO",
 			href: "#",
-			imageUrl:
-				"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			imageUrl: "/daniela_rosa.jpeg",
 		},
 	},
 	{
