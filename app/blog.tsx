@@ -9,10 +9,10 @@ const posts = [
 		category: { title: "Treinamento", href: "#" },
 		file: "/podcast.ogg",
 		author: {
-			name: "Cristian Velasco",
+			name: "Eduardo Garcia",
 			role: "Co-Founder / CEO",
 			href: "#",
-			imageUrl: "/cristian_velasco.jpeg",
+			imageUrl: "/eduardo_garcia.jpeg",
 		},
 	},
 	{

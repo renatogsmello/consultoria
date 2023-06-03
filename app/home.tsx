@@ -40,12 +40,12 @@ export default function Home() {
 				<iframe
 					width="560"
 					height="315"
-					src="https://www.youtube.com/embed/sgPoWtM10CY"
+					src="https://www.youtube.com/embed/-v-iZzp72bU"
 					title="YouTube video player"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowFullScreen
 					style={{ margin: "4rem auto" }}
-					className="w-full"
+					className="w-full h-96 rounded-md"
 				></iframe>
 
 				<div className="mx-auto mt-16 max-w-7xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
