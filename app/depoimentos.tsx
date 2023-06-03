@@ -26,7 +26,7 @@ export default function Projects() {
 					text="A Gamificação das atividades de toda a equipe no acompanhamento pós onboarding, promoveram uma integração bem-sucedidas e contribuíram para um ambiente de trabalho diversificado e realmente inclusivo."
 					img="/antonio_guterres.jpeg"
 					name="António Guterres"
-					company="CEO do Google"
+					company="9º secretário-geral da ONU"
 				/>
 			</div>
 		</div>
