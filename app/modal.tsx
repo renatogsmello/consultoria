@@ -45,7 +45,7 @@ export default function Modal({ isOpen, toggle }: IProps) {
 											<div className="mt-2">
 												<p className="text-sm text-gray-500">
 													É importante destacar a possibilidade de ajustes das pontuações de acordo com a complexidade do projeto,
-													plataforma e objetivos espec;íficos da gameficação aplicada ao onboarding
+													plataforma e objetivos espec;íficos da Gamificação aplicada ao onboarding
 												</p>
 												<img src="/pontuacao.jpeg" alt="" />
 											</div>
@@ -110,14 +110,14 @@ export function Modal2({ isOpen, toggle }: IProps) {
 												<p className="text-sm text-gray-500">
 													Possuímos app desenvolvido para que as empresas utilizem durante todo o processo de onboarding. Este app foi
 													desenvolvido através da conexão das tecnologias da OpenAI com as principais startups voltadas a inclusão de
-													PCD’s.
+													PcD’s.
 												</p>
 												<p className="text-sm text-gray-500 my-5">
 													O app é 100% interativo e personalizável para todos os tipos de deficiência, desta forma as empresas podem
 													simplificar e otimizar a integração de qualquer funcionário.
 												</p>
 												<p className="text-sm text-gray-500">
-													Porém o app não é somente para o novo funcionário PCD, ele oferece uma abordagem gamificada para o time e
+													Porém o app não é somente para o novo funcionário PcD, ele oferece uma abordagem gamificada para o time e
 													acompanhamento dedicado aos líderes para cada etapa do novo processo de onboarding, tornando a experiência
 													mais envolvente, motivadora e inclusiva.
 												</p>
@@ -186,7 +186,7 @@ export function Modal3({ isOpen, toggle }: IProps) {
 													deficiência não são eficientes
 												</p>
 												<p className="text-sm text-gray-500">
-													A gameficação oferece acesso fácil a recursos úteis, como materiais de treinamento, diretrizes de
+													A Gamificação oferece acesso fácil a recursos úteis, como materiais de treinamento, diretrizes de
 													acessibilidade, políticas internas e informações relevantes para garantir uma integração bem-sucedida.
 												</p>
 											</div>

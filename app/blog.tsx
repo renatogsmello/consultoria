@@ -1,7 +1,7 @@
 const posts = [
 	{
 		id: 1,
-		title: "O Termo PCD",
+		title: "O Termo PcD",
 		href: "#",
 		description: "Neste episódio do nosso podcast você descobrirá mais sobre terminologias e vocabulário.",
 		date: "20 Mar, 2023",
@@ -17,10 +17,10 @@ const posts = [
 	},
 	{
 		id: 2,
-		title: "PCD no mercado de trabalho",
+		title: "PcD no mercado de trabalho",
 		href: "#",
 		description:
-			"Em 2019, um levantamento feito pela Catho, empresa especializada em mercado de trabalho, em parceria com a consultoria Santo Caos, aponta outros aspectos da presença de PCD no mercado de trabalho brasileiro. A pesquisa, feita com cerca de mil participantes e divulgada em 2019, indica que menos de 10% dos profissionais que têm algum tipo de deficiência ocupam postos de liderança no país.",
+			"Em 2019, um levantamento feito pela Catho, empresa especializada em mercado de trabalho, em parceria com a consultoria Santo Caos, aponta outros aspectos da presença de PcD no mercado de trabalho brasileiro. A pesquisa, feita com cerca de mil participantes e divulgada em 2019, indica que menos de 10% dos profissionais que têm algum tipo de deficiência ocupam postos de liderança no país.",
 		date: "12 Abr, 2023",
 		datetime: "2020-03-10",
 		category: { title: "Mercado", href: "#" },

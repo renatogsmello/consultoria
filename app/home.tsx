@@ -7,6 +7,7 @@ import { Tabs } from "./selos"
 import Modal from "./modal"
 import { Modal2, Modal3 } from "./modal"
 import Team from "./team"
+import CompanyValues from "./company-values"
 
 export default function Home() {
 	const [open, setOpen] = useState(false)
@@ -61,10 +62,10 @@ export default function Home() {
 											</Disclosure.Button>
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
 												<ul className="list-disc">
-													<li className="mb-2">Entrevista com lideres e coleta de feedback</li>
+													<li className="mb-2">Entrevista com líderes e coleta de feedback</li>
 													<li className="mb-2">Adaptação da cultura da empresa sob a ótica inclusiva</li>
 													<li className="mb-2">
-														Mapeamento de ONGs e Instituições especializadas em PCDs para treinamento in company
+														Mapeamento de ONGs e Instituições especializadas em PcDs para treinamento in company
 													</li>
 													<li className="mb-2">Melhoria do ambiente de trabalho Presencial / Online / Híbrido</li>
 													<li className="mb-2">
@@ -95,7 +96,7 @@ export default function Home() {
 											</Disclosure.Button>
 											<Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
 												<ul className="list-disc">
-													<li className="mb-2">Realização do processo de onboarding acolhedor pelo funcionários PCDs treinados</li>
+													<li className="mb-2">Realização do processo de onboarding acolhedor pelo funcionários PcDs treinados</li>
 													<li className="mb-2">
 														Apresentação dos lideres capacitados através do onboarding continuo e da metodologia buddy
 													</li>
@@ -104,7 +105,7 @@ export default function Home() {
 															className="font-bold text-indigo-600 decoration-indigo-600 underline mr-2"
 															onClick={(e) => setOpen3(true)}
 														>
-															Gameficação
+															Gamificação
 														</button>
 														do processo de integração das equipes através de dinâmicas
 													</li>
@@ -176,14 +177,14 @@ export default function Home() {
 				</div>
 				<p className="mt-40 font-bold tracking-tight text-gray-900 text-2xl sm:text-4xl text-center">Benefícios de possuir os selos de Inclusão 360</p>
 				<p className="mt-6 text-lg leading-8 text-gray-600">
-					Ao promover um ambiente de trabalho diverso e acolhedor, os selos fortalecem a reputação e sucesso da empresa. A divulgação dos selos
+					Ao promover um ambiente de trabalho diverso e acolhedor, os selos fortalecem a reputação e sucesso da empresa. Com a divulgação dos selos
 					inclusão 360, a empresa demonstra compromisso com a igualdade e a diversidade, despertando o interesse e a admiração de potenciais clientes,
 					parceiros de negócios e talentos qualificados.
 				</p>
 				{/* <Selos /> */}
 				<Tabs />
 				<Team />
-
+				<CompanyValues />
 				<Modal isOpen={open} toggle={setOpen} />
 				<Modal2 isOpen={open2} toggle={setOpen2} />
 				<Modal3 isOpen={open3} toggle={setOpen3} />

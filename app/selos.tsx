@@ -7,7 +7,7 @@ const products = [
 		imageSrc: "/lider_inclusivo.jpeg",
 		imageAlt: "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
 		description:
-			"Nivel inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 é notável as mudanças nos processos de inclusão e acolhimento dos funcionários PCDs.",
+			"Nível inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 são notáveis as mudanças nos processos de inclusão e acolhimento dos funcionários PcDs.",
 	},
 	{
 		id: 2,
@@ -17,7 +17,7 @@ const products = [
 		imageSrc: "/lider_inovador.jpeg",
 		imageAlt: "Olive drab green insulated bottle with flared screw lid and flat top.",
 		description:
-			"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PCDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
+			"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PcDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
 	},
 	{
 		id: 3,
@@ -27,7 +27,7 @@ const products = [
 		imageSrc: "/lider_defensor.jpeg",
 		imageAlt: "Person using a pen to cross a task off a productivity paper card.",
 		description:
-			"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PCDs.",
+			"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PcDs.",
 	},
 ]
 
@@ -72,7 +72,7 @@ export function Tabs() {
 			name: "Selo 1",
 			title: "Líder Inclusivo",
 			description:
-				"Nivel inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 é notável as mudanças nos processos de inclusão e acolhimento dos funcionários PCDs.",
+				"Nivel inicial, na trilha determina empresas que já introduziram reais mudanças no seu processo de onboarding. Ao concluir o processo de avaliação 360 é notável as mudanças nos processos de inclusão e acolhimento dos funcionários PcDs.",
 			img: "/lider_inclusivo.jpeg",
 		},
 		Selo2: {
@@ -81,7 +81,7 @@ export function Tabs() {
 			title: "Líder Inovador",
 			img: "/lider_inovador.jpeg",
 			description:
-				"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PCDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
+				"Nivel intermediário, aplicado as empresas que na avaliação 360 apresentam profundos conhecimentos sobre as necessidades dos seus funcionários PcDs, não só no processo de onboarding contínuo. Supera desafios relacionados a conscientização e empatia, apresenta um ambiente acolhedor que permite compartilhamento de histórias e envolvimento em discussões que evoluem o tema.",
 		},
 		Selo3: {
 			id: 3,
@@ -89,7 +89,7 @@ export function Tabs() {
 			title: "Líder Defensor",
 			img: "/lider_defensor.jpeg",
 			description:
-				"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PCDs.",
+				"Nivel avançado, somente cedido a empresas que evidenciam na avaliação 360 o desenvolvimento de ações práticas nos processos prévios, durante e após o onboarding. São empresas que contribuem ativamente não só para a sua cultura organizacional, mas em grupos de trabalho e instituições voltadas para a capacitação e melhores oportunidades de emprego para PcDs.",
 		},
 	})
 
